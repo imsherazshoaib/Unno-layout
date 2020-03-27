@@ -1,0 +1,24 @@
+{
+  "name": "unno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/**/*.html",
+    "lint": "eslint src/js/**/*.js",
+    "format": "prettier src/**/*.{js,html,css} --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.9",
+    "parcel": "^1.12.4",
+    "prettier": "^2.0.2"
+  }
+}
