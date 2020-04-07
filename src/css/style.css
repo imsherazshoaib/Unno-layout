@@ -208,6 +208,7 @@ nav.navbar.navbar-expand-lg {
 .member-section .section-label,
 .section-label,
 .what-we-do {
+  font-weight: bold;
   font-size: 8px;
   border: #feecec 0.5px solid;
   padding: 6px;
@@ -702,6 +703,7 @@ nav.navbar.navbar-expand-lg {
 .footer-icons li:hover {
   background-color: #f24936;
 }
+.footer-icons .fa-pinterest-p,
 .footer-icons .fa-facebook-f,
 .footer-icons .fa-twitter,
 .footer-icons .fa-camera,

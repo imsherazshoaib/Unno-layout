@@ -1,0 +1,77 @@
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.min.css);
+
+#header {
+  background-image: url(../images/about-us.png);
+  background-repeat: no-repeat;
+  background-color: #0c1653;
+  width: 100%;
+  padding-bottom: 150px;
+}
+.buttons {
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+.buttons:hover {
+  background-color: transparent;
+  color: #f24837;
+}
+.banner-title {
+  margin-bottom: 15px;
+  margin-top: 40px;
+  font-size: 60px;
+}
+.fa-angle-double-right {
+  font-size: 0.8em;
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.business-section {
+  padding-top: 100px;
+}
+.Projects {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.Projects h1 {
+  font-size: 28px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.plus {
+  color: #f24837;
+}
+.Projects p {
+  font-size: 10px;
+  font-weight: bold;
+  color: #8a8a8a;
+  margin-top: 10px;
+}
+.team-member {
+  flex-wrap: wrap;
+  justify-content: right;
+}
+.youtube-icon {
+  background-image: url(../images/video-img.png);
+  padding: 150px;
+  background-color: transparent;
+}
+.service-for-business {
+  background-color: #f7f8fc;
+  padding-bottom: 100px;
+}
+.service-strategy {
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+.contact-section .buttons {
+  font-size: 8px;
+  padding: 10px 15px;
+}
+.contact-section .buttons:hover {
+  border: 0px;
+}
