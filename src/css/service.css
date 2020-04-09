@@ -28,3 +28,140 @@
 .accordian-image {
   height: 20px;
 }
+.business-section {
+  padding-bottom: 100px;
+}
+.youtube-icon {
+  background: url(../images/video-img-3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 130px;
+  background-position: center;
+}
+.video-icon {
+  background-color: #fff;
+  border: #fff 1px solid;
+  border-radius: 100px;
+  padding: 25px 30px;
+}
+.video-secion {
+  padding-bottom: 70px;
+  background-color: #f7f8fc;
+}
+.fa-play {
+  color: #f24837;
+  font-size: 0.8em;
+}
+.Projects {
+  padding: 0px;
+  margin-top: 30px;
+}
+.advisory .fa-database {
+  font-size: 2em;
+  color: #3747b8;
+  margin-right: 30px;
+}
+.advisory .fa-laptop-code {
+  margin-right: 20px;
+}
+.BusinessImmage {
+  margin-top: 32px;
+}
+.consulting-strategy {
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.pricing-plan {
+  padding: 100px 0px;
+  background-color: #2c0e6e;
+}
+.pricing-plan .section-label {
+  background-color: #4e27a4;
+  border: 1px solid #4e27a4;
+  color: #fff;
+  padding-left: 20px;
+}
+.pricing-plan .service-title {
+  color: #fff;
+}
+.gold-plan,
+.basic-plan {
+  background-color: #1c064e;
+  padding: 30px 0px;
+  color: #fff;
+}
+.gold-plan {
+  background-color: #0d5bd9;
+}
+.packages .gold-plan-btn {
+  background-color: #0d5bd9;
+}
+.gold-plan h1,
+.basic-plan h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.price {
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+.price p {
+  margin: 0px 10px 0px 0px;
+}
+.label {
+  background-color: #fff;
+  color: #1c064e;
+  border-radius: 3px;
+  font-size: 9px;
+  font-weight: bold;
+  padding: 5px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.packages {
+  padding: 30px 0px;
+  background-color: #240b5f;
+}
+.packages h5 {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.packages ul li {
+  color: #fff;
+  list-style: none;
+  font-size: 10px;
+  color: #e6dcff;
+  margin-bottom: 10px;
+}
+.packages .fa-check {
+  margin-right: 10px;
+  font-size: 0.8em;
+}
+.packages p {
+  color: #fff;
+  font-size: 8px;
+  margin-left: 40px;
+  line-height: 15px;
+  color: #e6dcff;
+}
+.packages button {
+  background-color: #ff8b1a;
+  color: #fff;
+  font-size: 10px;
+  padding: 5px 25px;
+  margin-top: 20px;
+  border-radius: 2px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+}
