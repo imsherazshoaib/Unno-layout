@@ -18,7 +18,28 @@
             <div class="col-2">
               <img src="./images/logo-img.png" class="img-fluid logo"  alt="">
             </div>
-            <div class="col-8 Navbar">
+            <div class="col-8">
+              <div class="dropdown">
+                <button onClick="show_hide()" class="button">
+                Home
+              </button>
+              <div style="display:none"; id="drop-content">
+                <a href="#">Business</a>
+                <a href="#">Advisory</a>
+                <a href="#">Videos</a>
+                <a href="#">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Team</a>
+                <a href="#">Contact</a>
+                <a href="#">Acccrdian</a>
+                <a href="#">Newsletter</a>
+                <a href="#">News & Blogs</a>
+                <a href="#">Logos</a>
+                <a href="#">Footer</a>
+              </div>
+            </div>
+            </div>
+            <!-- <div class="col-8 Navbar">
               <nav class="navbar navbar-expand-lg">
                 <div
                   class="collapse navbar-collapse"
@@ -31,7 +52,7 @@
                       ></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"
+                      <a class="nav-link" href="./service.html"
                         >Services<i class="fas fa-sort-down"></i
                       ></a>
                     </li>
@@ -46,19 +67,19 @@
                       ></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"
+                      <a class="nav-link" href="./blog.html"
                         >Blog<i class="fas fa-sort-down"></i
                       ></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"
+                      <a class="nav-link" href="./contact.html"
                         >Contact<i class="fas fa-sort-down"></i
                       ></a>
                     </li>
                   </ul>
                 </div>
               </nav>
-            </div>
+            </div> -->
             <div class="col-2 d-flex icons">
               <div class="search-icon">
                 <i class="fas fa-search" style="line-height: 1;"></i>
@@ -88,6 +109,12 @@
               <button class="buttons" type="search">
                 OUR PROJECT<i class="fas fa-long-arrow-alt-right"></i>
               </button>
+              <!-- <div class="search-box">
+                <input type="text" class="search-text" placeholder="search">
+                <a href="" class="search-btn">
+                  <i class="fas fa-search"></i>
+                </a>
+              </div> -->
             </div>
           </div>
         </div>
@@ -275,22 +302,22 @@
                 <div class="row">
                   <div class="col-6">
                     <div class="projects compare">
-                      <h1>1000<span>+</span></h1>
+                      <h1>1000<sup>+</sup></h1>
                       <p>More Than Successfull Project Comapre</p>
                     </div>
                     <div class="projects advisor">
-                      <h1>530<span>+</span></h1>
+                      <h1>530<sup>+</sup></h1>
                       <p>More Than Successfull Creative Advisor</p>
                     </div>
                   </div>
                   <div class="col-6">
                     <div class="clients-awards">
                       <div class="projects clients">
-                        <h1>2560<span>+</span></h1>
+                        <h1>2560<sup>+</sup></h1>
                         <p>More Than Satisfied Clients In World</p>
                       </div>
                       <div class="projects awards">
-                        <h1>5236<span>+</span></h1>
+                        <h1>5236<sup>+</sup></h1>
                         <p>More Than International Win Awards</p>
                       </div>
                     </div>
@@ -845,6 +872,7 @@
         Copyright 2020 <span>Unno</span>. Design By <span>DesignLight</span>
       </div>
     </footer>
-    <script src="./js/index.js"></script>
+    <script src="./js/index.js">  
+    </script>
   </body>
 </html>
