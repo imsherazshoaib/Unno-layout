@@ -138,6 +138,9 @@ nav.navbar.navbar-expand-lg {
   margin-bottom: 100px;
   border: 0px;
 }
+.banner a:hover {
+  text-decoration: none;
+}
 .buttons:hover {
   background-color: #f24837;
   color: #fff;
